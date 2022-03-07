@@ -22,7 +22,8 @@ public class Kliens {
                 System.out.println("2: Adott megye előrejelzése");
                 System.out.println("3: Mai átlaghőmérséklet");
                 System.out.println("4: Holnapi átlaghőmérséklet");
-                System.out.println("5: Átlag időjárás");
+                System.out.println("5: Mai átlag időjárás");
+                System.out.println("6: Holnapi átlag időjárás");
                 menu = sc.nextInt();
                 szervernek.writeInt(menu);
                 switch (menu) {
